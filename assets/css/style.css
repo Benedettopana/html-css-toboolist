@@ -1,0 +1,78 @@
+/* Struttura pagina */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(246, 248, 249);
+}
+
+header{
+  height: 80px;
+  background-color: white;
+  margin-bottom: 60px;
+
+}
+
+/* /Struttura pagina */
+
+/* header */
+h1{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+header .logo img{
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* header */
+
+/* Contenitore principale */
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 10px;
+}
+
+/* bottoni */
+.button{
+  display: inline-block;
+  max-height: 50px;
+  padding: 10px;
+  margin: 3px;
+  border: 2.5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.button span{
+  text-align: center;
+}
+
+.button#task{
+  background-color: rgb(71, 173, 241);
+  color: white;
+}
+
+.button#section{
+  padding: 8px;
+  border-color: rgb(211, 215, 219);
+  color: rgb(211, 215, 219);
+  border-width: 2px;
+  border-style: solid;
+}
+/* /bottoni */
