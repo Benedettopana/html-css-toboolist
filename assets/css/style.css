@@ -37,6 +37,13 @@ header .logo img{
 }
 /* header */
 
+/* linea che taglia */
+hr#linea{
+  border: 2px solid rgb(246, 248, 249);
+  margin-left: -100px;
+  margin-bottom: 40px;
+}
+
 /* Contenitore principale */
 .container{
   max-width: 1000px;
