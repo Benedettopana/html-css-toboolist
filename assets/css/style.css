@@ -48,15 +48,20 @@ hr#linea{
   margin-bottom: 40px;
 }
 
+.container .top,
+.container .bottom{
+  padding: 15px 40px;
+}
+
+.container .top{
+  border-bottom: 2px solid #F6F8F9;
+}
 
 /* Contenitore principale */
 .container{
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 50px auto;
   background-color: white;
-  padding-left: 60px;
-  padding-top: 20px;
-  padding-bottom: 30px;
   border-radius: 10px;
   border: 10px;
 }
@@ -129,7 +134,7 @@ hr#linea{
   color: white;
   display: inline-block;
   text-align: center;
-  width: 80px;
+  width: 90px;
   padding: 6px;
   margin: 5px;
   border-radius: 13px;
